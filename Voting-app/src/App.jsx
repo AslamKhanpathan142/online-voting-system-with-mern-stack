@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar"; // ✅ import your Navbar
-import Home from "./pages/Home";
+import Home from "./Pages/Home";
 import Login from "./Pages/Login";
-import Signup from "./pages/Signup";
+import Signup from "./Pages/Signup";
 import Dashboard from "./Pages/Dashboard";
-import CreatePoll from "./pages/CreatePoll";
+import CreatePoll from "./Pages/CreatePoll";
 import ProtectedRoute from "./utils/ProtectedRoute";
 import PublicRoute from "./utils/PublicRoute";
 import MyPolls from "./Pages/MyPolls";
