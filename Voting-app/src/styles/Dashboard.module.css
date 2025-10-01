@@ -1,0 +1,70 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #0e1a35;
+}
+
+.pollList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #f2f2f2;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  color: #0e1a35;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  color: #333;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.options button {
+  background-color: #0e1a35;
+  color: white;
+  padding: 8px 16px;
+  margin: 4px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.options button:hover {
+  background-color: #1f2c5a;
+}
+
+.results {
+  margin-top: 0.5rem;
+}
+
+.resultLine {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+}
+
+.resultButton {
+margin-top: 10px;
+display: inline-block;
+color: #fff;
+background: #333;
+padding: 8px 16px;
+border-radius: 5px;
+text-decoration: none;
+}

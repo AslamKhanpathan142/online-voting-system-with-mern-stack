@@ -1,0 +1,59 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+.mainDiv {
+   background-image: url("../assets/voting.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh; 
+  width: 100vh;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #0e1a35;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #444;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #f2f2f2;
+  padding: 1.5rem;
+  border-radius: 10px;
+  flex: 1 1 300px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+  color: #0e1a35;
+}
+
+.card p {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+}
